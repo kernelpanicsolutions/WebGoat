@@ -28,12 +28,6 @@ jobs:
            path: .github/glog-action
            ref: main
 
-      - name: ls
-        run: ls -la
-
-      - name: ls-glog
-        run: ls .glog -la
-
       - name: Run GlogAI from private repo
         uses: ./.github/glog-action
         with:
