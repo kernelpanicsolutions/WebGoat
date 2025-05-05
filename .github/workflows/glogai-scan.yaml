@@ -32,7 +32,7 @@ jobs:
         uses: ./.github/glog-action
         with:
           lang: 'java'
-          debug: 'false'
-          upload: 'false'
+          debug: 'true'
+          upload: 'true'
           github-token: ${{ secrets.PAT_TOKEN }}
           glog-token: ${{ secrets.GLOG_TOKEN }}
