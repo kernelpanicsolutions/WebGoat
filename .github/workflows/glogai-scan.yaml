@@ -31,6 +31,7 @@ jobs:
       - name: Run GlogAI from private repo
         uses: ./.github/glog-action
         with:
+          lang: 'java'
           debug: 'false'
           upload: 'false'
           github-token: ${{ secrets.PAT_TOKEN }}
