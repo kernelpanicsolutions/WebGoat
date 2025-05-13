@@ -1,11 +1,11 @@
-May 12, 2025 11:03:49 AM ai.glog.plugins.spotbugs.bug.resolve.CrlfInjectionLogsResolver getDetailText
+May 13, 2025 3:53:57 PM ai.glog.plugins.spotbugs.bug.resolve.CrlfInjectionLogsResolver getDetailText
 SEVERE: Cannot invoke "ai.glog.context.miner.dto.ParameterDto.getRemediation()" because "statementRemediation" is null
 java.lang.NullPointerException: Cannot invoke "ai.glog.context.miner.dto.ParameterDto.getRemediation()" because "statementRemediation" is null
 	at ai.glog.plugins.spotbugs.bug.resolve.CrlfInjectionLogsResolver.getDetailText(CrlfInjectionLogsResolver.java:113)
 	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:71)
 	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
 
-May 12, 2025 11:03:49 AM ai.glog.plugins.spotbugs.bug.resolve.CrlfInjectionLogsResolver getDetailText
+May 13, 2025 3:53:57 PM ai.glog.plugins.spotbugs.bug.resolve.CrlfInjectionLogsResolver getDetailText
 SEVERE: Cannot invoke "ai.glog.context.miner.dto.ParameterDto.getRemediation()" because "statementRemediation" is null
 java.lang.NullPointerException: Cannot invoke "ai.glog.context.miner.dto.ParameterDto.getRemediation()" because "statementRemediation" is null
 	at ai.glog.plugins.spotbugs.bug.resolve.CrlfInjectionLogsResolver.getDetailText(CrlfInjectionLogsResolver.java:113)
@@ -13,14 +13,14 @@ java.lang.NullPointerException: Cannot invoke "ai.glog.context.miner.dto.Paramet
 	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:73)
 	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
 
-May 12, 2025 11:03:51 AM ai.glog.plugins.spotbugs.bug.resolve.CrlfInjectionLogsResolver getDetailText
+May 13, 2025 3:54:00 PM ai.glog.plugins.spotbugs.bug.resolve.CrlfInjectionLogsResolver getDetailText
 SEVERE: Cannot invoke "ai.glog.context.miner.dto.ParameterDto.getRemediation()" because "statementRemediation" is null
 java.lang.NullPointerException: Cannot invoke "ai.glog.context.miner.dto.ParameterDto.getRemediation()" because "statementRemediation" is null
 	at ai.glog.plugins.spotbugs.bug.resolve.CrlfInjectionLogsResolver.getDetailText(CrlfInjectionLogsResolver.java:113)
 	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:71)
 	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
 
-May 12, 2025 11:03:51 AM ai.glog.plugins.spotbugs.bug.resolve.CrlfInjectionLogsResolver getDetailText
+May 13, 2025 3:54:00 PM ai.glog.plugins.spotbugs.bug.resolve.CrlfInjectionLogsResolver getDetailText
 SEVERE: Cannot invoke "ai.glog.context.miner.dto.ParameterDto.getRemediation()" because "statementRemediation" is null
 java.lang.NullPointerException: Cannot invoke "ai.glog.context.miner.dto.ParameterDto.getRemediation()" because "statementRemediation" is null
 	at ai.glog.plugins.spotbugs.bug.resolve.CrlfInjectionLogsResolver.getDetailText(CrlfInjectionLogsResolver.java:113)
@@ -28,7 +28,7 @@ java.lang.NullPointerException: Cannot invoke "ai.glog.context.miner.dto.Paramet
 	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:73)
 	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
 
-May 12, 2025 11:05:56 AM ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver getDetailText
+May 13, 2025 3:55:18 PM ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver getDetailText
 SEVERE: next on empty iterator
 java.util.NoSuchElementException: next on empty iterator
 	at scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
@@ -55,7 +55,7 @@ java.util.NoSuchElementException: next on empty iterator
 	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:71)
 	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
 
-May 12, 2025 11:05:56 AM ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver getDetailText
+May 13, 2025 3:55:18 PM ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver getDetailText
 SEVERE: next on empty iterator
 java.util.NoSuchElementException: next on empty iterator
 	at scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
@@ -83,7 +83,7 @@ java.util.NoSuchElementException: next on empty iterator
 	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:73)
 	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
 
-May 12, 2025 11:06:32 AM ai.glog.plugins.spotbugs.bug.resolve.SqlInjectionResolver getSinkCpg
+May 13, 2025 3:55:34 PM ai.glog.plugins.spotbugs.bug.resolve.SqlInjectionResolver getSinkCpg
 SEVERE: next on empty iterator
 java.util.NoSuchElementException: next on empty iterator
 	at scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
@@ -99,7 +99,7 @@ java.util.NoSuchElementException: next on empty iterator
 	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:68)
 	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
 
-May 12, 2025 11:06:32 AM ai.glog.plugins.spotbugs.bug.resolve.SqlInjectionResolver remediation
+May 13, 2025 3:55:34 PM ai.glog.plugins.spotbugs.bug.resolve.SqlInjectionResolver remediation
 SEVERE: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "_$5" is null
 java.lang.NullPointerException: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "_$5" is null
 	at io.shiftleft.codepropertygraph.generated.nodes.RootTypesTraversals$package$._astOut$$anonfun$1(RootTypesTraversals.scala:11)
@@ -122,7 +122,7 @@ java.lang.NullPointerException: Cannot invoke "io.shiftleft.codepropertygraph.ge
 	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:68)
 	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
 
-May 12, 2025 11:06:32 AM ai.glog.plugins.spotbugs.bug.resolve.SqlInjectionResolver getSinkCpg
+May 13, 2025 3:55:34 PM ai.glog.plugins.spotbugs.bug.resolve.SqlInjectionResolver getSinkCpg
 SEVERE: next on empty iterator
 java.util.NoSuchElementException: next on empty iterator
 	at scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
@@ -137,7 +137,7 @@ java.util.NoSuchElementException: next on empty iterator
 	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:71)
 	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
 
-May 12, 2025 11:06:32 AM ai.glog.plugins.spotbugs.bug.resolve.SqlInjectionResolver remediation
+May 13, 2025 3:55:34 PM ai.glog.plugins.spotbugs.bug.resolve.SqlInjectionResolver remediation
 SEVERE: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "_$5" is null
 java.lang.NullPointerException: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "_$5" is null
 	at io.shiftleft.codepropertygraph.generated.nodes.RootTypesTraversals$package$._astOut$$anonfun$1(RootTypesTraversals.scala:11)
@@ -159,7 +159,7 @@ java.lang.NullPointerException: Cannot invoke "io.shiftleft.codepropertygraph.ge
 	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:71)
 	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
 
-May 12, 2025 11:06:32 AM ai.glog.plugins.spotbugs.bug.resolve.SqlInjectionResolver getSinkCpg
+May 13, 2025 3:55:34 PM ai.glog.plugins.spotbugs.bug.resolve.SqlInjectionResolver getSinkCpg
 SEVERE: next on empty iterator
 java.util.NoSuchElementException: next on empty iterator
 	at scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
@@ -175,7 +175,7 @@ java.util.NoSuchElementException: next on empty iterator
 	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:73)
 	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
 
-May 12, 2025 11:06:32 AM ai.glog.plugins.spotbugs.bug.resolve.SqlInjectionResolver remediation
+May 13, 2025 3:55:34 PM ai.glog.plugins.spotbugs.bug.resolve.SqlInjectionResolver remediation
 SEVERE: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "_$5" is null
 java.lang.NullPointerException: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "_$5" is null
 	at io.shiftleft.codepropertygraph.generated.nodes.RootTypesTraversals$package$._astOut$$anonfun$1(RootTypesTraversals.scala:11)
@@ -198,7 +198,7 @@ java.lang.NullPointerException: Cannot invoke "io.shiftleft.codepropertygraph.ge
 	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:73)
 	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
 
-May 12, 2025 11:06:32 AM ai.glog.plugins.spotbugs.bug.resolve.SqlInjectionResolver getSinkCpg
+May 13, 2025 3:55:34 PM ai.glog.plugins.spotbugs.bug.resolve.SqlInjectionResolver getSinkCpg
 SEVERE: next on empty iterator
 java.util.NoSuchElementException: next on empty iterator
 	at scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
@@ -214,7 +214,7 @@ java.util.NoSuchElementException: next on empty iterator
 	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:68)
 	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
 
-May 12, 2025 11:06:32 AM ai.glog.plugins.spotbugs.bug.resolve.SqlInjectionResolver remediation
+May 13, 2025 3:55:34 PM ai.glog.plugins.spotbugs.bug.resolve.SqlInjectionResolver remediation
 SEVERE: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "_$5" is null
 java.lang.NullPointerException: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "_$5" is null
 	at io.shiftleft.codepropertygraph.generated.nodes.RootTypesTraversals$package$._astOut$$anonfun$1(RootTypesTraversals.scala:11)
@@ -237,7 +237,7 @@ java.lang.NullPointerException: Cannot invoke "io.shiftleft.codepropertygraph.ge
 	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:68)
 	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
 
-May 12, 2025 11:06:32 AM ai.glog.plugins.spotbugs.bug.resolve.SqlInjectionResolver getSinkCpg
+May 13, 2025 3:55:34 PM ai.glog.plugins.spotbugs.bug.resolve.SqlInjectionResolver getSinkCpg
 SEVERE: next on empty iterator
 java.util.NoSuchElementException: next on empty iterator
 	at scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
@@ -252,7 +252,7 @@ java.util.NoSuchElementException: next on empty iterator
 	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:71)
 	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
 
-May 12, 2025 11:06:32 AM ai.glog.plugins.spotbugs.bug.resolve.SqlInjectionResolver remediation
+May 13, 2025 3:55:34 PM ai.glog.plugins.spotbugs.bug.resolve.SqlInjectionResolver remediation
 SEVERE: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "_$5" is null
 java.lang.NullPointerException: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "_$5" is null
 	at io.shiftleft.codepropertygraph.generated.nodes.RootTypesTraversals$package$._astOut$$anonfun$1(RootTypesTraversals.scala:11)
@@ -274,7 +274,7 @@ java.lang.NullPointerException: Cannot invoke "io.shiftleft.codepropertygraph.ge
 	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:71)
 	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
 
-May 12, 2025 11:06:32 AM ai.glog.plugins.spotbugs.bug.resolve.SqlInjectionResolver getSinkCpg
+May 13, 2025 3:55:34 PM ai.glog.plugins.spotbugs.bug.resolve.SqlInjectionResolver getSinkCpg
 SEVERE: next on empty iterator
 java.util.NoSuchElementException: next on empty iterator
 	at scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
@@ -290,7 +290,7 @@ java.util.NoSuchElementException: next on empty iterator
 	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:73)
 	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
 
-May 12, 2025 11:06:32 AM ai.glog.plugins.spotbugs.bug.resolve.SqlInjectionResolver remediation
+May 13, 2025 3:55:34 PM ai.glog.plugins.spotbugs.bug.resolve.SqlInjectionResolver remediation
 SEVERE: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "_$5" is null
 java.lang.NullPointerException: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "_$5" is null
 	at io.shiftleft.codepropertygraph.generated.nodes.RootTypesTraversals$package$._astOut$$anonfun$1(RootTypesTraversals.scala:11)
@@ -313,7 +313,7 @@ java.lang.NullPointerException: Cannot invoke "io.shiftleft.codepropertygraph.ge
 	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:73)
 	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
 
-May 12, 2025 11:06:37 AM ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver getDetailText
+May 13, 2025 3:55:39 PM ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver getDetailText
 SEVERE: next on empty iterator
 java.util.NoSuchElementException: next on empty iterator
 	at scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
@@ -340,7 +340,7 @@ java.util.NoSuchElementException: next on empty iterator
 	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:71)
 	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
 
-May 12, 2025 11:06:37 AM ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver getDetailText
+May 13, 2025 3:55:39 PM ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver getDetailText
 SEVERE: next on empty iterator
 java.util.NoSuchElementException: next on empty iterator
 	at scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
@@ -368,7 +368,7 @@ java.util.NoSuchElementException: next on empty iterator
 	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:73)
 	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
 
-May 12, 2025 11:06:49 AM ai.glog.plugins.spotbugs.bug.resolve.PathTraversalInResolver getDetailText
+May 13, 2025 3:55:53 PM ai.glog.plugins.spotbugs.bug.resolve.PathTraversalInResolver getDetailText
 SEVERE: next on empty iterator
 java.util.NoSuchElementException: next on empty iterator
 	at scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
@@ -382,7 +382,7 @@ java.util.NoSuchElementException: next on empty iterator
 	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:71)
 	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
 
-May 12, 2025 11:06:49 AM ai.glog.plugins.spotbugs.bug.resolve.PathTraversalInResolver getDetailText
+May 13, 2025 3:55:53 PM ai.glog.plugins.spotbugs.bug.resolve.PathTraversalInResolver getDetailText
 SEVERE: next on empty iterator
 java.util.NoSuchElementException: next on empty iterator
 	at scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
@@ -397,14 +397,14 @@ java.util.NoSuchElementException: next on empty iterator
 	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:73)
 	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
 
-May 12, 2025 11:12:20 AM ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver getDetailText
+May 13, 2025 3:57:59 PM ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver getDetailText
 SEVERE: Cannot invoke "ai.glog.context.miner.dto.FieldDto.getRemediation()" because "fieldRemediation" is null
 java.lang.NullPointerException: Cannot invoke "ai.glog.context.miner.dto.FieldDto.getRemediation()" because "fieldRemediation" is null
 	at ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver.getDetailText(SpringMvcEndpointResolver.java:205)
 	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:71)
 	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
 
-May 12, 2025 11:12:52 AM ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver getDetailText
+May 13, 2025 3:58:32 PM ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver getDetailText
 SEVERE: Cannot invoke "ai.glog.context.miner.dto.FieldDto.getRemediation()" because "fieldRemediation" is null
 java.lang.NullPointerException: Cannot invoke "ai.glog.context.miner.dto.FieldDto.getRemediation()" because "fieldRemediation" is null
 	at ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver.getDetailText(SpringMvcEndpointResolver.java:205)
@@ -412,7 +412,7 @@ java.lang.NullPointerException: Cannot invoke "ai.glog.context.miner.dto.FieldDt
 	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:73)
 	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
 
-May 12, 2025 11:12:55 AM ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver getDetailText
+May 13, 2025 3:58:35 PM ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver getDetailText
 SEVERE: next on empty iterator
 java.util.NoSuchElementException: next on empty iterator
 	at scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
@@ -443,70 +443,7 @@ java.util.NoSuchElementException: next on empty iterator
 	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:71)
 	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
 
-May 12, 2025 11:12:55 AM ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver getDetailText
-SEVERE: next on empty iterator
-java.util.NoSuchElementException: next on empty iterator
-	at scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
-	at scala.collection.Iterator$$anon$19.next(Iterator.scala:971)
-	at scala.collection.Iterator$$anon$6.next(Iterator.scala:492)
-	at flatgraph.traversal.GenericSteps$.head$extension(Language.scala:77)
-	at ai.glog.cpg.analysis.TypeAnalyzer.getPublicStringFields(TypeAnalyzer.scala:25)
-	at ai.glog.cpg.analysis.MethodAnalyzer$.getFieldsToRemediate$$anonfun$1$$anonfun$3$$anonfun$2(MethodAnalyzer.scala:64)
-	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)
-	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:574)
-	at scala.collection.AbstractIterator.foreach(Iterator.scala:1300)
-	at ai.glog.cpg.analysis.MethodAnalyzer$.getFieldsToRemediate$$anonfun$1$$anonfun$3(MethodAnalyzer.scala:64)
-	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
-	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
-	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)
-	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:574)
-	at scala.collection.AbstractIterator.foreach(Iterator.scala:1300)
-	at ai.glog.cpg.analysis.MethodAnalyzer$.getFieldsToRemediate$$anonfun$1(MethodAnalyzer.scala:72)
-	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
-	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
-	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)
-	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:574)
-	at scala.collection.AbstractIterator.foreach(Iterator.scala:1300)
-	at ai.glog.cpg.analysis.MethodAnalyzer$.getFieldsToRemediate(MethodAnalyzer.scala:75)
-	at ai.glog.cpg.analysis.MethodAnalyzer.getFieldsToRemediate(MethodAnalyzer.scala)
-	at ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver.getFieldsToRemediate(SpringMvcEndpointResolver.java:238)
-	at ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver.getDetailText(SpringMvcEndpointResolver.java:180)
-	at ai.glog.execute.GlogTriage.setDetailsForGenuineFinding(GlogTriage.java:150)
-	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:73)
-	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
-
-May 12, 2025 11:12:55 AM ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver getDetailText
-SEVERE: next on empty iterator
-java.util.NoSuchElementException: next on empty iterator
-	at scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
-	at scala.collection.Iterator$$anon$19.next(Iterator.scala:971)
-	at scala.collection.Iterator$$anon$6.next(Iterator.scala:492)
-	at flatgraph.traversal.GenericSteps$.head$extension(Language.scala:77)
-	at ai.glog.cpg.analysis.TypeAnalyzer.getPublicStringFields(TypeAnalyzer.scala:25)
-	at ai.glog.cpg.analysis.MethodAnalyzer$.getFieldsToRemediate$$anonfun$1$$anonfun$3$$anonfun$2(MethodAnalyzer.scala:64)
-	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)
-	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:574)
-	at scala.collection.AbstractIterator.foreach(Iterator.scala:1300)
-	at ai.glog.cpg.analysis.MethodAnalyzer$.getFieldsToRemediate$$anonfun$1$$anonfun$3(MethodAnalyzer.scala:64)
-	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
-	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
-	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)
-	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:574)
-	at scala.collection.AbstractIterator.foreach(Iterator.scala:1300)
-	at ai.glog.cpg.analysis.MethodAnalyzer$.getFieldsToRemediate$$anonfun$1(MethodAnalyzer.scala:72)
-	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
-	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
-	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)
-	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:574)
-	at scala.collection.AbstractIterator.foreach(Iterator.scala:1300)
-	at ai.glog.cpg.analysis.MethodAnalyzer$.getFieldsToRemediate(MethodAnalyzer.scala:75)
-	at ai.glog.cpg.analysis.MethodAnalyzer.getFieldsToRemediate(MethodAnalyzer.scala)
-	at ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver.getFieldsToRemediate(SpringMvcEndpointResolver.java:238)
-	at ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver.getDetailText(SpringMvcEndpointResolver.java:180)
-	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:71)
-	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
-
-May 12, 2025 11:12:55 AM ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver getDetailText
+May 13, 2025 3:58:35 PM ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver getDetailText
 SEVERE: next on empty iterator
 java.util.NoSuchElementException: next on empty iterator
 	at scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
@@ -538,94 +475,7 @@ java.util.NoSuchElementException: next on empty iterator
 	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:73)
 	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
 
-May 12, 2025 11:12:55 AM ai.glog.plugins.spotbugs.bug.resolve.PathTraversalInResolver getDetailText
-SEVERE: next on empty iterator
-java.util.NoSuchElementException: next on empty iterator
-	at scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
-	at scala.collection.Iterator$$anon$19.next(Iterator.scala:971)
-	at scala.collection.Iterator$$anon$6.next(Iterator.scala:492)
-	at flatgraph.traversal.GenericSteps$.head$extension(Language.scala:77)
-	at ai.glog.cpg.analysis.SinkAnalyzer$.getSink(SinkAnalyzer.scala:20)
-	at ai.glog.cpg.analysis.SinkAnalyzer.getSink(SinkAnalyzer.scala)
-	at ai.glog.reporting.Sarif.getSinkCpg(Sarif.java:173)
-	at ai.glog.plugins.spotbugs.bug.resolve.PathTraversalInResolver.getDetailText(PathTraversalInResolver.java:94)
-	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:71)
-	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
-
-May 12, 2025 11:12:55 AM ai.glog.plugins.spotbugs.bug.resolve.PathTraversalInResolver getDetailText
-SEVERE: next on empty iterator
-java.util.NoSuchElementException: next on empty iterator
-	at scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
-	at scala.collection.Iterator$$anon$19.next(Iterator.scala:971)
-	at scala.collection.Iterator$$anon$6.next(Iterator.scala:492)
-	at flatgraph.traversal.GenericSteps$.head$extension(Language.scala:77)
-	at ai.glog.cpg.analysis.SinkAnalyzer$.getSink(SinkAnalyzer.scala:20)
-	at ai.glog.cpg.analysis.SinkAnalyzer.getSink(SinkAnalyzer.scala)
-	at ai.glog.reporting.Sarif.getSinkCpg(Sarif.java:173)
-	at ai.glog.plugins.spotbugs.bug.resolve.PathTraversalInResolver.getDetailText(PathTraversalInResolver.java:94)
-	at ai.glog.execute.GlogTriage.setDetailsForGenuineFinding(GlogTriage.java:150)
-	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:73)
-	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
-
-May 12, 2025 11:12:55 AM ai.glog.plugins.spotbugs.bug.resolve.PathTraversalInResolver getDetailText
-SEVERE: next on empty iterator
-java.util.NoSuchElementException: next on empty iterator
-	at scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
-	at scala.collection.Iterator$$anon$19.next(Iterator.scala:971)
-	at scala.collection.Iterator$$anon$6.next(Iterator.scala:492)
-	at flatgraph.traversal.GenericSteps$.head$extension(Language.scala:77)
-	at ai.glog.cpg.analysis.SinkAnalyzer$.getSink(SinkAnalyzer.scala:20)
-	at ai.glog.cpg.analysis.SinkAnalyzer.getSink(SinkAnalyzer.scala)
-	at ai.glog.reporting.Sarif.getSinkCpg(Sarif.java:173)
-	at ai.glog.plugins.spotbugs.bug.resolve.PathTraversalInResolver.getDetailText(PathTraversalInResolver.java:94)
-	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:71)
-	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
-
-May 12, 2025 11:12:55 AM ai.glog.plugins.spotbugs.bug.resolve.PathTraversalInResolver getDetailText
-SEVERE: next on empty iterator
-java.util.NoSuchElementException: next on empty iterator
-	at scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
-	at scala.collection.Iterator$$anon$19.next(Iterator.scala:971)
-	at scala.collection.Iterator$$anon$6.next(Iterator.scala:492)
-	at flatgraph.traversal.GenericSteps$.head$extension(Language.scala:77)
-	at ai.glog.cpg.analysis.SinkAnalyzer$.getSink(SinkAnalyzer.scala:20)
-	at ai.glog.cpg.analysis.SinkAnalyzer.getSink(SinkAnalyzer.scala)
-	at ai.glog.reporting.Sarif.getSinkCpg(Sarif.java:173)
-	at ai.glog.plugins.spotbugs.bug.resolve.PathTraversalInResolver.getDetailText(PathTraversalInResolver.java:94)
-	at ai.glog.execute.GlogTriage.setDetailsForGenuineFinding(GlogTriage.java:150)
-	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:73)
-	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
-
-May 12, 2025 11:12:55 AM ai.glog.plugins.spotbugs.bug.resolve.PathTraversalInResolver getDetailText
-SEVERE: next on empty iterator
-java.util.NoSuchElementException: next on empty iterator
-	at scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
-	at scala.collection.Iterator$$anon$19.next(Iterator.scala:971)
-	at scala.collection.Iterator$$anon$6.next(Iterator.scala:492)
-	at flatgraph.traversal.GenericSteps$.head$extension(Language.scala:77)
-	at ai.glog.cpg.analysis.SinkAnalyzer$.getSink(SinkAnalyzer.scala:20)
-	at ai.glog.cpg.analysis.SinkAnalyzer.getSink(SinkAnalyzer.scala)
-	at ai.glog.reporting.Sarif.getSinkCpg(Sarif.java:173)
-	at ai.glog.plugins.spotbugs.bug.resolve.PathTraversalInResolver.getDetailText(PathTraversalInResolver.java:94)
-	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:71)
-	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
-
-May 12, 2025 11:12:55 AM ai.glog.plugins.spotbugs.bug.resolve.PathTraversalInResolver getDetailText
-SEVERE: next on empty iterator
-java.util.NoSuchElementException: next on empty iterator
-	at scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
-	at scala.collection.Iterator$$anon$19.next(Iterator.scala:971)
-	at scala.collection.Iterator$$anon$6.next(Iterator.scala:492)
-	at flatgraph.traversal.GenericSteps$.head$extension(Language.scala:77)
-	at ai.glog.cpg.analysis.SinkAnalyzer$.getSink(SinkAnalyzer.scala:20)
-	at ai.glog.cpg.analysis.SinkAnalyzer.getSink(SinkAnalyzer.scala)
-	at ai.glog.reporting.Sarif.getSinkCpg(Sarif.java:173)
-	at ai.glog.plugins.spotbugs.bug.resolve.PathTraversalInResolver.getDetailText(PathTraversalInResolver.java:94)
-	at ai.glog.execute.GlogTriage.setDetailsForGenuineFinding(GlogTriage.java:150)
-	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:73)
-	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
-
-May 12, 2025 11:12:56 AM ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver getDetailText
+May 13, 2025 3:58:35 PM ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver getDetailText
 SEVERE: next on empty iterator
 java.util.NoSuchElementException: next on empty iterator
 	at scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
@@ -656,7 +506,7 @@ java.util.NoSuchElementException: next on empty iterator
 	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:71)
 	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
 
-May 12, 2025 11:12:56 AM ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver getDetailText
+May 13, 2025 3:58:35 PM ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver getDetailText
 SEVERE: next on empty iterator
 java.util.NoSuchElementException: next on empty iterator
 	at scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
@@ -688,7 +538,157 @@ java.util.NoSuchElementException: next on empty iterator
 	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:73)
 	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
 
-May 12, 2025 11:13:03 AM ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver getDetailText
+May 13, 2025 3:58:35 PM ai.glog.plugins.spotbugs.bug.resolve.PathTraversalInResolver getDetailText
+SEVERE: next on empty iterator
+java.util.NoSuchElementException: next on empty iterator
+	at scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
+	at scala.collection.Iterator$$anon$19.next(Iterator.scala:971)
+	at scala.collection.Iterator$$anon$6.next(Iterator.scala:492)
+	at flatgraph.traversal.GenericSteps$.head$extension(Language.scala:77)
+	at ai.glog.cpg.analysis.SinkAnalyzer$.getSink(SinkAnalyzer.scala:20)
+	at ai.glog.cpg.analysis.SinkAnalyzer.getSink(SinkAnalyzer.scala)
+	at ai.glog.reporting.Sarif.getSinkCpg(Sarif.java:173)
+	at ai.glog.plugins.spotbugs.bug.resolve.PathTraversalInResolver.getDetailText(PathTraversalInResolver.java:94)
+	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:71)
+	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
+
+May 13, 2025 3:58:35 PM ai.glog.plugins.spotbugs.bug.resolve.PathTraversalInResolver getDetailText
+SEVERE: next on empty iterator
+java.util.NoSuchElementException: next on empty iterator
+	at scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
+	at scala.collection.Iterator$$anon$19.next(Iterator.scala:971)
+	at scala.collection.Iterator$$anon$6.next(Iterator.scala:492)
+	at flatgraph.traversal.GenericSteps$.head$extension(Language.scala:77)
+	at ai.glog.cpg.analysis.SinkAnalyzer$.getSink(SinkAnalyzer.scala:20)
+	at ai.glog.cpg.analysis.SinkAnalyzer.getSink(SinkAnalyzer.scala)
+	at ai.glog.reporting.Sarif.getSinkCpg(Sarif.java:173)
+	at ai.glog.plugins.spotbugs.bug.resolve.PathTraversalInResolver.getDetailText(PathTraversalInResolver.java:94)
+	at ai.glog.execute.GlogTriage.setDetailsForGenuineFinding(GlogTriage.java:150)
+	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:73)
+	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
+
+May 13, 2025 3:58:35 PM ai.glog.plugins.spotbugs.bug.resolve.PathTraversalInResolver getDetailText
+SEVERE: next on empty iterator
+java.util.NoSuchElementException: next on empty iterator
+	at scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
+	at scala.collection.Iterator$$anon$19.next(Iterator.scala:971)
+	at scala.collection.Iterator$$anon$6.next(Iterator.scala:492)
+	at flatgraph.traversal.GenericSteps$.head$extension(Language.scala:77)
+	at ai.glog.cpg.analysis.SinkAnalyzer$.getSink(SinkAnalyzer.scala:20)
+	at ai.glog.cpg.analysis.SinkAnalyzer.getSink(SinkAnalyzer.scala)
+	at ai.glog.reporting.Sarif.getSinkCpg(Sarif.java:173)
+	at ai.glog.plugins.spotbugs.bug.resolve.PathTraversalInResolver.getDetailText(PathTraversalInResolver.java:94)
+	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:71)
+	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
+
+May 13, 2025 3:58:35 PM ai.glog.plugins.spotbugs.bug.resolve.PathTraversalInResolver getDetailText
+SEVERE: next on empty iterator
+java.util.NoSuchElementException: next on empty iterator
+	at scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
+	at scala.collection.Iterator$$anon$19.next(Iterator.scala:971)
+	at scala.collection.Iterator$$anon$6.next(Iterator.scala:492)
+	at flatgraph.traversal.GenericSteps$.head$extension(Language.scala:77)
+	at ai.glog.cpg.analysis.SinkAnalyzer$.getSink(SinkAnalyzer.scala:20)
+	at ai.glog.cpg.analysis.SinkAnalyzer.getSink(SinkAnalyzer.scala)
+	at ai.glog.reporting.Sarif.getSinkCpg(Sarif.java:173)
+	at ai.glog.plugins.spotbugs.bug.resolve.PathTraversalInResolver.getDetailText(PathTraversalInResolver.java:94)
+	at ai.glog.execute.GlogTriage.setDetailsForGenuineFinding(GlogTriage.java:150)
+	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:73)
+	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
+
+May 13, 2025 3:58:35 PM ai.glog.plugins.spotbugs.bug.resolve.PathTraversalInResolver getDetailText
+SEVERE: next on empty iterator
+java.util.NoSuchElementException: next on empty iterator
+	at scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
+	at scala.collection.Iterator$$anon$19.next(Iterator.scala:971)
+	at scala.collection.Iterator$$anon$6.next(Iterator.scala:492)
+	at flatgraph.traversal.GenericSteps$.head$extension(Language.scala:77)
+	at ai.glog.cpg.analysis.SinkAnalyzer$.getSink(SinkAnalyzer.scala:20)
+	at ai.glog.cpg.analysis.SinkAnalyzer.getSink(SinkAnalyzer.scala)
+	at ai.glog.reporting.Sarif.getSinkCpg(Sarif.java:173)
+	at ai.glog.plugins.spotbugs.bug.resolve.PathTraversalInResolver.getDetailText(PathTraversalInResolver.java:94)
+	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:71)
+	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
+
+May 13, 2025 3:58:35 PM ai.glog.plugins.spotbugs.bug.resolve.PathTraversalInResolver getDetailText
+SEVERE: next on empty iterator
+java.util.NoSuchElementException: next on empty iterator
+	at scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
+	at scala.collection.Iterator$$anon$19.next(Iterator.scala:971)
+	at scala.collection.Iterator$$anon$6.next(Iterator.scala:492)
+	at flatgraph.traversal.GenericSteps$.head$extension(Language.scala:77)
+	at ai.glog.cpg.analysis.SinkAnalyzer$.getSink(SinkAnalyzer.scala:20)
+	at ai.glog.cpg.analysis.SinkAnalyzer.getSink(SinkAnalyzer.scala)
+	at ai.glog.reporting.Sarif.getSinkCpg(Sarif.java:173)
+	at ai.glog.plugins.spotbugs.bug.resolve.PathTraversalInResolver.getDetailText(PathTraversalInResolver.java:94)
+	at ai.glog.execute.GlogTriage.setDetailsForGenuineFinding(GlogTriage.java:150)
+	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:73)
+	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
+
+May 13, 2025 3:58:36 PM ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver getDetailText
+SEVERE: next on empty iterator
+java.util.NoSuchElementException: next on empty iterator
+	at scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
+	at scala.collection.Iterator$$anon$19.next(Iterator.scala:971)
+	at scala.collection.Iterator$$anon$6.next(Iterator.scala:492)
+	at flatgraph.traversal.GenericSteps$.head$extension(Language.scala:77)
+	at ai.glog.cpg.analysis.TypeAnalyzer.getPublicStringFields(TypeAnalyzer.scala:25)
+	at ai.glog.cpg.analysis.MethodAnalyzer$.getFieldsToRemediate$$anonfun$1$$anonfun$3$$anonfun$2(MethodAnalyzer.scala:64)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:574)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1300)
+	at ai.glog.cpg.analysis.MethodAnalyzer$.getFieldsToRemediate$$anonfun$1$$anonfun$3(MethodAnalyzer.scala:64)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:574)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1300)
+	at ai.glog.cpg.analysis.MethodAnalyzer$.getFieldsToRemediate$$anonfun$1(MethodAnalyzer.scala:72)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:574)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1300)
+	at ai.glog.cpg.analysis.MethodAnalyzer$.getFieldsToRemediate(MethodAnalyzer.scala:75)
+	at ai.glog.cpg.analysis.MethodAnalyzer.getFieldsToRemediate(MethodAnalyzer.scala)
+	at ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver.getFieldsToRemediate(SpringMvcEndpointResolver.java:238)
+	at ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver.getDetailText(SpringMvcEndpointResolver.java:180)
+	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:71)
+	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
+
+May 13, 2025 3:58:36 PM ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver getDetailText
+SEVERE: next on empty iterator
+java.util.NoSuchElementException: next on empty iterator
+	at scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
+	at scala.collection.Iterator$$anon$19.next(Iterator.scala:971)
+	at scala.collection.Iterator$$anon$6.next(Iterator.scala:492)
+	at flatgraph.traversal.GenericSteps$.head$extension(Language.scala:77)
+	at ai.glog.cpg.analysis.TypeAnalyzer.getPublicStringFields(TypeAnalyzer.scala:25)
+	at ai.glog.cpg.analysis.MethodAnalyzer$.getFieldsToRemediate$$anonfun$1$$anonfun$3$$anonfun$2(MethodAnalyzer.scala:64)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:574)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1300)
+	at ai.glog.cpg.analysis.MethodAnalyzer$.getFieldsToRemediate$$anonfun$1$$anonfun$3(MethodAnalyzer.scala:64)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:574)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1300)
+	at ai.glog.cpg.analysis.MethodAnalyzer$.getFieldsToRemediate$$anonfun$1(MethodAnalyzer.scala:72)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:574)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1300)
+	at ai.glog.cpg.analysis.MethodAnalyzer$.getFieldsToRemediate(MethodAnalyzer.scala:75)
+	at ai.glog.cpg.analysis.MethodAnalyzer.getFieldsToRemediate(MethodAnalyzer.scala)
+	at ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver.getFieldsToRemediate(SpringMvcEndpointResolver.java:238)
+	at ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver.getDetailText(SpringMvcEndpointResolver.java:180)
+	at ai.glog.execute.GlogTriage.setDetailsForGenuineFinding(GlogTriage.java:150)
+	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:73)
+	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
+
+May 13, 2025 3:58:44 PM ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver getDetailText
 SEVERE: next on empty iterator
 java.util.NoSuchElementException: next on empty iterator
 	at scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
@@ -715,7 +715,7 @@ java.util.NoSuchElementException: next on empty iterator
 	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:71)
 	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
 
-May 12, 2025 11:13:03 AM ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver getDetailText
+May 13, 2025 3:58:44 PM ai.glog.plugins.spotbugs.bug.resolve.SpringMvcEndpointResolver getDetailText
 SEVERE: next on empty iterator
 java.util.NoSuchElementException: next on empty iterator
 	at scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
